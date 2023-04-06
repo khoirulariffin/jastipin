@@ -1,0 +1,162 @@
+[{
+    "productName": "Oil - Cooking Spray",
+    "price": 667257,
+    "stock": 1,
+    "description": "Unspecified injury of flexor muscle, fascia and tendon of thumb at forearm level",
+    "imageUrl": "http://dummyimage.com/228x100.png/cc0000/ffffff",
+    "CategoryId": 3,
+    "country": "Finland"
+  }, {
+    "productName": "Cabbage - Red",
+    "price": 124500,
+    "stock": 2,
+    "description": "Fracture of unspecified parts of lumbosacral spine and pelvis, sequela",
+    "imageUrl": "http://dummyimage.com/123x100.png/5fa2dd/ffffff",
+    "CategoryId": 1,
+    "country": "Philippines"
+  }, {
+    "productName": "Beef - Rib Eye Aaa",
+    "price": 253117,
+    "stock": 3,
+    "description": "Poisoning by butyrophenone and thiothixene neuroleptics, undetermined, subsequent encounter",
+    "imageUrl": "http://dummyimage.com/234x100.png/cc0000/ffffff",
+    "CategoryId": 5,
+    "country": "United States"
+  }, {
+    "productName": "Tea - Herbal Orange Spice",
+    "price": 365678,
+    "stock": 4,
+    "description": "Corrosion of second degree of unspecified shoulder, subsequent encounter",
+    "imageUrl": "http://dummyimage.com/166x100.png/ff4444/ffffff",
+    "CategoryId": 3,
+    "country": "Tajikistan"
+  }, {
+    "productName": "Crab - Meat Combo",
+    "price": 654781,
+    "stock": 5,
+    "description": "Other specified diseases of esophagus",
+    "imageUrl": "http://dummyimage.com/207x100.png/5fa2dd/ffffff",
+    "CategoryId": 1,
+    "country": "Bosnia and Herzegovina"
+  }, {
+    "productName": "Longos - Lasagna Veg",
+    "price": 521963,
+    "stock": 6,
+    "description": "Osteitis deformans of hand",
+    "imageUrl": "http://dummyimage.com/208x100.png/cc0000/ffffff",
+    "CategoryId": 4,
+    "country": "Indonesia"
+  }, {
+    "productName": "Sping Loaded Cup Dispenser",
+    "price": 888696,
+    "stock": 7,
+    "description": "Salter-Harris Type III physeal fracture of lower end of radius, left arm, subsequent encounter for fracture with malunion",
+    "imageUrl": "http://dummyimage.com/170x100.png/5fa2dd/ffffff",
+    "CategoryId": 4,
+    "country": "United States"
+  }, {
+    "productName": "Soup - Knorr, Ministrone",
+    "price": 13077,
+    "stock": 8,
+    "description": "Total retinal detachment, right eye",
+    "imageUrl": "http://dummyimage.com/187x100.png/ff4444/ffffff",
+    "CategoryId": 2,
+    "country": "China"
+  }, {
+    "productName": "Carbonated Water - Raspberry",
+    "price": 60165,
+    "stock": 9,
+    "description": "Unspecified physeal fracture of lower end of left fibula, subsequent encounter for fracture with nonunion",
+    "imageUrl": "http://dummyimage.com/141x100.png/dddddd/000000",
+    "CategoryId": 1,
+    "country": "China"
+  }, {
+    "productName": "Beer - Maudite",
+    "price": 468567,
+    "stock": 10,
+    "description": "Toxic effect of fiberglass, undetermined, subsequent encounter",
+    "imageUrl": "http://dummyimage.com/113x100.png/cc0000/ffffff",
+    "CategoryId": 4,
+    "country": "Japan"
+  }, {
+    "productName": "Soup - Boston Clam Chowder",
+    "price": 913901,
+    "stock": 11,
+    "description": "Congenital partial dislocation of hip, unspecified",
+    "imageUrl": "http://dummyimage.com/197x100.png/ff4444/ffffff",
+    "CategoryId": 1,
+    "country": "Brazil"
+  }, {
+    "productName": "Fish - Halibut, Cold Smoked",
+    "price": 109768,
+    "stock": 12,
+    "description": "Other shellfish poisoning, accidental (unintentional), subsequent encounter",
+    "imageUrl": "http://dummyimage.com/124x100.png/dddddd/000000",
+    "CategoryId": 4,
+    "country": "Indonesia"
+  }, {
+    "productName": "Beets - Pickled",
+    "price": 546315,
+    "stock": 13,
+    "description": "Laceration of abdominal wall with foreign body, unspecified quadrant without penetration into peritoneal cavity, subsequent encounter",
+    "imageUrl": "http://dummyimage.com/223x100.png/5fa2dd/ffffff",
+    "CategoryId": 3,
+    "country": "China"
+  }, {
+    "productName": "Water - Tonic",
+    "price": 799803,
+    "stock": 14,
+    "description": "Displaced fracture of shaft of right clavicle, subsequent encounter for fracture with routine healing",
+    "imageUrl": "http://dummyimage.com/212x100.png/ff4444/ffffff",
+    "CategoryId": 5,
+    "country": "China"
+  }, {
+    "productName": "Green Tea Refresher",
+    "price": 540212,
+    "stock": 15,
+    "description": "Nondisplaced spiral fracture of shaft of radius, unspecified arm, subsequent encounter for closed fracture with delayed healing",
+    "imageUrl": "http://dummyimage.com/208x100.png/5fa2dd/ffffff",
+    "CategoryId": 3,
+    "country": "Venezuela"
+  }, {
+    "productName": "Cake Circle, Paprus",
+    "price": 720454,
+    "stock": 16,
+    "description": "Salter-Harris Type II physeal fracture of lower end of unspecified fibula, subsequent encounter for fracture with nonunion",
+    "imageUrl": "http://dummyimage.com/245x100.png/cc0000/ffffff",
+    "CategoryId": 2,
+    "country": "Japan"
+  }, {
+    "productName": "Soup - Boston Clam Chowder",
+    "price": 555085,
+    "stock": 17,
+    "description": "Other complications of foreign body accidentally left in body following other procedure",
+    "imageUrl": "http://dummyimage.com/186x100.png/ff4444/ffffff",
+    "CategoryId": 4,
+    "country": "Russia"
+  }, {
+    "productName": "Creme De Menth - White",
+    "price": 356193,
+    "stock": 18,
+    "description": "Conjunctival concretions, unspecified eye",
+    "imageUrl": "http://dummyimage.com/166x100.png/cc0000/ffffff",
+    "CategoryId": 2,
+    "country": "Russia"
+  }, {
+    "productName": "Rice - Basmati",
+    "price": 83250,
+    "stock": 19,
+    "description": "Other specified injury of posterior tibial artery, left leg, sequela",
+    "imageUrl": "http://dummyimage.com/196x100.png/dddddd/000000",
+    "CategoryId": 5,
+    "country": "China"
+  }, {
+    "productName": "Pickle - Dill",
+    "price": 844178,
+    "stock": 20,
+    "description": "Gonococcal infection of lower genitourinary tract, unspecified",
+    "imageUrl": "http://dummyimage.com/199x100.png/5fa2dd/ffffff",
+    "CategoryId": 4,
+    "country": "Montenegro"
+  }]
+  
