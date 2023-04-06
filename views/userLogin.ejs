@@ -23,6 +23,7 @@
             <h4 class="h4" style="letter-spacing: 5px;">Login</h4>
             <hr width="30%" style="opacity: 0.1; margin-top: -1px;">
             <div style="width: 40vw;" class="mt-5">
+                <form action="/login" method="post">
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Email address</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1"
@@ -33,8 +34,9 @@
                     <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="input here" name="password">
                 </div>
                 <button class="btn btn-success mt-5" style="width: 100%; letter-spacing: 1px;">Login Here</button>
-                <p class="fs-6 ms-2 mt-3"><span style="opacity: 0.5;">Don't have an account yet?</span> <a href="#"> Register</a></p>
+                <p class="fs-6 ms-2 mt-3"><span style="opacity: 0.5;">Don't have an account yet?</span> <a href="/register"> Register</a></p>
             </div>
+        </form>
         </div>
     </div>
 

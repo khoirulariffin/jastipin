@@ -1,6 +1,8 @@
-const {Category,Product,Transaction,User,Sequelize} = require(`../models`);
+const {Category,Product,Transaction,User,Sequelize, sequelize} = require(`../models`);
+
 const bcrypt = require("bcrypt");
 const nodemailer = require("nodemailer");
+const { Op } = require("sequelize");
 
 const transporter = nodemailer.createTransport({
   service: "gmail",
@@ -47,8 +49,34 @@ class Controller {
       });
   }
 
+  static showAllProducts(req, res){
+    let search = req.query.search
+
+    if(!search) {
+      search=""
+    }
+    Product.findAll({
+      where: {
+        productName:{
+         [Op.iLike]: `%${search}%`
+        }
+      },
+      include: Category
+    })
+    .then((products) => {
+      console.log(products);
+      res.render('allProducts', {products})
+    }).catch((err) => {
+      res.send(err);
+    })
+  }
+
+  static adminPage(req,res){
+    res.render('adminPage');
+  }
+
   static register(req, res) {
-    res.render(`register`);
+    res.render(`userRegister`);
   }
   static registerPost(req, res) {
     const { email, password, firstName, lastName, dateOfBirth, role } =req.body;
@@ -180,9 +208,12 @@ class Controller {
   }
 
   static showAddProduct(req, res) {
+
+    const countries = ['Indonesia', 'Malaysia', 'United States', 'United Kingdom'];
+
     Category.findAll()
       .then((categories) => {
-        res.render("addProduct", { categories });
+        res.render("productCreate", { categories, countries });
       })
       .catch((err) => {
         console.log(err);
@@ -195,6 +226,7 @@ class Controller {
 
     // Mengambil file gambar dari request dan menyimpannya ke database
     const imageUrl = `images/${req.file.filename}`;
+    console.log(imageUrl);
 
     // Membuat record product baru
     Product.create({
@@ -207,12 +239,33 @@ class Controller {
       CategoryId,
     })
       .then((product) => {
-        res.redirect("/");
+        res.redirect("/allProducts");
       })
       .catch((err) => {
         console.log(err);
         res.send(err)
       });
+  }
+
+  static delete (req,res) {
+    const {id} = req.params
+    console.log(id);
+    Product.destroy({
+      where :{
+        id : id
+      }
+    })
+    .then((_) => {
+      res.redirect("/allProducts")
+    })
+    .catch((err) => {
+      console.log(err)
+      res.send(err);
+    })
+  }
+
+  static detailProduct(req, res){
+    res.render('productDescription')
   }
 }
 

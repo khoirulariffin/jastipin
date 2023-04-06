@@ -22,6 +22,7 @@
             class="d-flex justify-content-center flex-column align-items-center">
             <h4 class="h4" style="letter-spacing: 5px;">Add Product</h4>
             <hr width="30%" style="opacity: 0.1; margin-top: -1px;">
+            <form action="/product/add" method="post" enctype="multipart/form-data">
             <div style="width: 40vw;" class="d-flex flex-column">
                 <div class="d-flex justify-content-between">
                 <div class="mb-2">
@@ -41,10 +42,9 @@
                 <div class="mb-2 ms-4" style="width: 100%;">
                     <label for="exampleFormControlInput1" class="form-label">Country</label>
                     <select class="form-select" aria-label="Default select example" name="country">
-                        <option selected>Open this select menu</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
+                        <% countries.forEach(country => { %>
+                            <option value="<%= country %>"><%= country %></option>
+                        <% }) %>
                       </select>
                 </div>
             </div>
@@ -54,19 +54,19 @@
                 </div>
                 <div class="mb-2">
                     <label for="exampleFormControlInput1" class="form-label">Image URL</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" name="price">
+                    <input type="file" class="form-control" id="image" name="image">
                 </div>
                 <div class="mb-2">
                     <label for="exampleFormControlInput1" class="form-label">Category</label>
                     <select class="form-select" aria-label="Default select example" name="CategoryId">
-                        <option selected>Open this select menu</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
+                        <% categories.forEach(category => { %>
+                            <option value="<%= category.id %>"><%= category.categoryName %></option>
+                        <% }) %>
                       </select>
                 </div>
                 <button class="btn btn-success mt-5" style="width: 100%; letter-spacing: 1px;">Create Product</button>
             </div>
+        </form>
         </div>
     </div>
 

@@ -23,17 +23,32 @@
             <h4 class="h4" style="letter-spacing: 5px;">Create Account</h4>
             <hr width="30%" style="opacity: 0.1; margin-top: -1px;">
             <div style="width: 40vw;" class="mt-5">
+                <form action="/register" method="post">
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="name@example.com" name="email">
+                    <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                     name="firstName">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                 name="lastName">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" name="email">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Tanggal Lahir</label>
+                    <input type="date" class="form-control" id="exampleFormControlInput1" name="dateOfBirth">
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="input here" name="password">
+                    <input type="password" class="form-control" id="exampleFormControlInput1" name="password">
                 </div>
                 <button class="btn btn-success mt-5" style="width: 100%;">Create an account</button>
-                <p class="fs-6 ms-2 mt-3"><span style="opacity: 0.5;">Already have an account?</span> <a href="#"> Login</a></p>
+            </form>
+                <p class="fs-6 ms-2 mt-3"><span style="opacity: 0.5;">Already have an account?</span> <a href="/login"> Login</a></p>
             </div>
         </div>
     </div>
